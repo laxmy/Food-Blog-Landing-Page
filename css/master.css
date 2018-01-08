@@ -7,8 +7,12 @@ h2,h4,a{
 section{
   margin-top:2em;
 }
+p{
+  text-align: justify;
+}
 .writing{
   font-family: 'Satisfy', cursive;
+  text-align: center;
 }
 a{
   color: #000;
@@ -28,6 +32,11 @@ a:hover{
   text-transform: uppercase;
   text-align: center;
   font-size: 1em;
+}
+.btn-more:hover{
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
 }
 .landing-page{
   background-image: url("../img/landing-pic.jpeg");
@@ -86,9 +95,15 @@ header i{
   width:18em;
   max-width:100%
 }
-.latest-blog{
-
+.rounded{
+  margin: 1em 0.1em;
 }
+.center-content{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
 .footer{
   text-align:center;
   color:#fff;
