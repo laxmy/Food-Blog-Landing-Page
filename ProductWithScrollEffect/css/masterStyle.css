@@ -1,0 +1,129 @@
+body{
+font-family: 'Nunito', sans-serif;
+}
+h3,h4,h6,nav{
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar{
+  background-color: #FAFAFA;
+  border-bottom:2px solid #A6CF41;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+.navbar-brand {
+  color: #A6CF41;
+}
+.navbar-nav a{
+  color: #000;
+}
+
+#showcase img{
+  width: 90%;
+  margin-left:30px;
+}
+
+#testimonial{
+  background-color: #A6CF41;
+  color: #fff;
+  text-align: center;
+  padding:50px 0 30px 0;
+  margin-top:40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#testimonial .customer{
+  font-size: 16px;
+}
+.showcase-btn{
+  background: #00AEEF;
+  color: #fff;
+}
+.blue{
+  background: #00AEEF;
+  color: #fff;
+}
+.green{
+  background: #A6CF41;
+  color: #fff;
+}
+.yellow{
+  background: #E3E534;
+  color: #000;
+}
+.feature a{
+  color:#00AEEF;
+  font-weight: bold;
+}
+.feature{
+  height:260px;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+}
+#product-block1,#product-block2{
+  background: #FAFAFA;
+  padding: 25px 3px;
+}
+.product-img{
+  display: block;
+  max-width:50%;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+.large-feature-row{
+  background-image: url("../img/living-room.jpeg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1em;
+}
+.large-feature-row{
+  padding-top: 1em;
+}
+.row{
+  margin: 2em 0;
+}
+.content-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+footer{
+  font-weight: 300;
+  padding: 30px;
+  background: #FAFAFA;
+  border-top: 1px solid #A6CF41;
+}
+
+#slide1{
+  background-image: url("../img/room-pic1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+#slide2{
+  background-image: url("../img/room-pic2.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+#slide3{
+  background-image: url("../img/room-pic3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.slide{
+  height: 60vh;
+  color: #fff;
+  opacity: 1;
+  margin-bottom: 1em;
+}
